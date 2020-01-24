@@ -1,1 +1,1 @@
-# Q-Entangle-and-Collapse
+# Q\# Entangle and Collapse
