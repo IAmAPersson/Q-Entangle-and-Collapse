@@ -5,9 +5,9 @@
 
     operation Set(qbit : Qubit, desired : Result) : Unit {
         if (desired != M(qbit)) {
-            X(qbit);  
-		}
-	}
+            X(qbit);
+        }
+    }
 
     operation EntangleCollapse () : Unit {
         using ((a, b) = (Qubit(), Qubit())) {
@@ -21,7 +21,7 @@
 
                 Set(a, Zero);
                 Set(b, Zero);
-			}
-		}
-	}
+            }
+        }
+    }
 }
