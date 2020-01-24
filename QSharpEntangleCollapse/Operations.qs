@@ -1,5 +1,4 @@
-﻿namespace Quantum.QSharpEntangleCollapse
-{
+﻿namespace Quantum.QSharpEntangleCollapse {
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Canon;
 
